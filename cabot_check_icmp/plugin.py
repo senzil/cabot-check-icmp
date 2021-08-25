@@ -6,8 +6,8 @@ from django.template import Context, Template
 from django.dispatch import receiver
 from django.db.models.signals import m2m_changed, post_save
 
-from cabot.plugins.models import StatusCheckPlugin, StatusCheckPluginModel
-from cabot.cabotapp.models import Instance, StatusCheck, Service
+from cabot3.plugins.models import StatusCheckPlugin, StatusCheckPluginModel
+from cabot3.cabotapp.models import Instance, StatusCheck, Service
 
 from os import environ as env
 import subprocess
